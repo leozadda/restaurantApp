@@ -19,22 +19,6 @@ const accountInfo = {
 const myapp = initializeApp(accountInfo);
 const database = getFirestore(myapp);
 
-
-function addd(){
-
-    const newPerson = addDoc(collection(database, "users"),{
-        Name: "name",
-        Username: "username",
-        Password: "password",
-        Phone: "phone",
-    });
-
-    //log object into console to see if it sent
-    newPerson.then(
-    answer => console.log(answer));
-
-}
-
 //New User Component function
 function NewUser(){ 
 
