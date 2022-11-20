@@ -16,6 +16,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10%;
     border-radius: 3em;
+
 }
 
 .title {
@@ -31,12 +32,16 @@
     height: 100%;
 }
 button{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 10, 208);
     color: rgb(255, 255, 255);
     border-radius: .5em;
     padding: 1em;
     border: 0px;
 }
 button:hover{
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(12, 0, 145);
+}
+
+a:hover{
+    color: rgb(169, 169, 169);
 }

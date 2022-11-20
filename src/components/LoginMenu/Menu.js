@@ -77,15 +77,13 @@ function Menu(props) {
                         <input type="text" placeholder="Password" onChange={event => setPassword(event.target.value)}></input>
                     </div>
                     <button onClick={newState}>Sign In</button>
-                    <div>
-                        <div>
-                            <br></br>
-                            <div onClick={createAccountPage}>New user?</div>
-                        </div>
-                        <div onClick={goToReservationPage}>Continue As Guest</div>
+                    <div className="links">
+                        <br></br>
+                        <a onClick={createAccountPage}>New user?</a>
+                        <br></br>
+                        <a onClick={goToReservationPage}>Continue As Guest</a>
                     </div>
                 </div>
-
             </form>
         </div>
     </>
